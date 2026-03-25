@@ -27,8 +27,12 @@ h3{
     color: rgb(208, 206, 218);
 }
 .header__search{
+    color: #1a1e23;
     background-color: white;
     border-radius: 24px;
+    padding: 5px;
+    border: 0;
+    font-size: 16px;
 }
 .header{
     display: flex;
@@ -127,6 +131,36 @@ h3{
   display: flex;
   justify-content: space-between;
   
+}
+
+.input__text{
+    position: relative;
+    border: 0;
+    height: 100px;
+}
+.icon__glass{
+ position: relative;
+ right: 20px;
+ color: black;
+}
+.icon__main{
+    position: relative;
+    right: 20px;
+}
+.skill__icon{
+    font-size: 48px;
+    color: black;
+}
+.about__main{
+    border: #1a1e23 solid 4px;
+    border-radius: 20px;
+    background-color: #292f36;
+    height: 200px;
+    width: 550px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 15px;
+
 }
 
 
