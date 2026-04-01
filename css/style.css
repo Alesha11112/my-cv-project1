@@ -33,6 +33,10 @@ h3{
     padding: 5px;
     border: 0;
     font-size: 16px;
+    transition: 0.3s;
+}
+.header__search:hover{
+    scale: 1.02;
 }
 .header{
     display: flex;
@@ -61,6 +65,7 @@ h3{
     padding: 20px 30px;
     text-align: center;
     box-shadow: -3px -3px 1px #12f7d6;
+    height: 325px;
 }
 .cv__btn{
     color:  #292f36;
@@ -69,6 +74,11 @@ h3{
     padding: 10px;
     font-size: 20px;
     align-self: start;
+    transition: 0.3s;
+}
+.cv__btn:hover{
+    scale: 1.02;
+
 }
 .hero__inf__content{
     margin: 15px 0;
@@ -90,6 +100,7 @@ h3{
     background-color: #1a1e23;
     border-radius: 60px;
     padding: 20px;
+    height: 160px;
 }
 .hero__inf__skill{
     display: flex;
@@ -145,7 +156,11 @@ h3{
 }
 .icon__main{
     position: relative;
-    right: 20px;
+    right: 7px;
+    transition: 0.3s;
+}
+.icon__main:hover{
+    color: #12f7d6;
 }
 .skill__icon{
     font-size: 48px;
@@ -162,6 +177,46 @@ h3{
     margin: 15px;
 
 }
+.icon__div{
+  transition: 0.3s;
+}
+.icon__div:hover{
+    scale: 1.05;
+    color: #12f7d6;
+    transform: rotate(5)
+}
+.works{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.send{
+padding: 40px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.footer__form{
+    border: 0;
+    border-bottom: #98faec solid 1px ;
+    color: white;
+    background-color: #1a1e23;
+}
+.footer__form__first{
+    display: flex;
+    justify-content: space-around;
+    width: 496px;
+    margin-top:  50px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+.form__message{
+    width: 1120px;
+}
+
 
 
 
