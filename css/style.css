@@ -2,6 +2,7 @@
     font-family: "IBMPlexMono";
     src: url(/fonts/IBMPlexMono-Regular.ttf);
 }
+html { scroll-behavior: smooth }
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +17,7 @@ h1{
     font-size: 117px;
     text-align: center;
     color: #12f7d6;
+    padding-top: 110px;
 }
 h2{
     font-size: 64px;
@@ -42,7 +44,10 @@ h3{
     display: flex;
     justify-content: space-around;
     background-color: #292f36 ;
-    padding: 20px;  
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid #363c42 ;  
 }
 .hero{
     background-color: #292f36;
@@ -78,6 +83,10 @@ h3{
 }
 .cv__btn:hover{
     scale: 1.02;
+    background-color: rgb(212, 212, 212);
+    box-shadow: -1px -1px 1px #12f7d6;
+    transform:translateY(10px);
+
 
 }
 .hero__inf__content{
@@ -165,6 +174,14 @@ h3{
 .skill__icon{
     font-size: 48px;
     color: black;
+    transition: 0.5s;
+    bottom: 10px ;
+}
+.skill__icon:hover{
+    scale: 1.2;
+    transform: translateY(20px);
+    color: #2A8C82;
+   
 }
 .about__main{
     border: #1a1e23 solid 4px;
@@ -215,6 +232,9 @@ align-items: center;
 }
 .form__message{
     width: 1120px;
+}
+.header__arrow{
+    color: #363c42;
 }
 
 
